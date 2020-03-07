@@ -4,6 +4,10 @@ A layer control for folium based on leaflet-groupedlayercontrol by @ismyrnow. (h
 
 ## Example
 
+<p>
+  <img src="Demo/screenshot.PNG" width="130" title="Screenshot" alt="Screenshot">
+</p>
+
 After importing the required library, folium, and function GroupedLayerControl from grouped_layer_control.py, 
 
 ```
@@ -29,6 +33,7 @@ GroupedLayerControl({}, {'Category 1' : {'India' : fg2 , 'China' : fg3},
                         }, ['Category 1']).add_to(m)
                         
 ```
+
 
 Find this code in demo.ipynb and the resultant map in demo.html
 
